@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Kartu Rencana Studi (KRS)</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="bg-dark ">
+    <div class="container mt-5">
+        <h2 class="mb-4 text-white">Mahasiswa</h2>
+        <div class="row">
+                            <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">faiq</h5>
+                            <p class="card-text"><strong>NIM:</strong> 2311341</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#krsModal2311341">
+                                Lihat KRS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="krsModal2311341" tabindex="-1"
+                    aria-labelledby="exampleModalLabel2311341" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <!-- Header -->
+                            <div class="modal-header d-flex align-items-center">
+                                <img src="http://localhost/images/logo.png" alt="Logo"
+                                    style="width: 100px; margin-right: 15px;">
+                                <div class="text-center w-100">
+                                    <h5 class="mb-0">STMIK MARDIRA INDONESIA</h5>
+                                    <p class="mb-0 small">Jl. Soekarno Hatta No.211, Situsaeur, Kec. Bojongloa Kidul,
+                                        Kota Bandung, Jawa Barat, 40233</p>
+                                    <p class="mb-0 small">Website: stmik-mi.ac.id / e-Mail: info@stmik-mi.ac.id /
+                                        Telepon: 022 - 5233428</p>
+                                </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <!-- Body -->
+                            <div class="modal-body">
+                                <!-- Student Information -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Nama Mahasiswa:</strong> faiq</p>
+                                            <p><strong>NIM:</strong> 2311341</p>
+                                            <p><strong>Prodi:</strong> s1 - teknik informatika</p>
+                                        </div>
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Semester:</strong> 3</p>
+                                            <p><strong>Jumlah SKS yang Diambil:</strong> 21</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Table -->
+                                <div class="modal-body">
+                                    <h5 class="mt-2">Mata Kuliah yang Ditempuh, Antara Lain:</h5>
+                                    <table class="table-responsive table table-sm table-bordered"
+                                        style="font-size: 14px;">
+                                        <thead class="thead table-active">
+                                            <tr>
+                                                <th style="width: 5%;">No</th>
+                                                <th style="width: 15%;">Kode MK</th>
+                                                <th style="width: 35%;">Mata Kuliah</th>
+                                                <th class="text-center" style="width: 7%;">SKS</th>
+                                                <th style="width: 10%;">Kelas</th>
+                                                <th style="width: 25%;">Dosen Pengampu</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                            <tr>
+                                                    <td>1</td>
+                                                    <td>DK2301</td>
+                                                    <td>Statistika</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Yuda Purnama Putra M. Pd.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>2</td>
+                                                    <td>DK2308</td>
+                                                    <td>Matematika Diskrit</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>OKTAVIA M. Si.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>3</td>
+                                                    <td>IF3310I</td>
+                                                    <td>Manajemen Layanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Cahyo Hermanto M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>4</td>
+                                                    <td>IF3318</td>
+                                                    <td>Komunikasi Data Dan Jaringan Komputer</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Nanang Suciyono M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>5</td>
+                                                    <td>IF3337</td>
+                                                    <td>Pengembangan Aplikasi IOT</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Rr Isni Anisah P M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>6</td>
+                                                    <td>IF3338</td>
+                                                    <td>Keamanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>ROHMAT NUR IBRAHIM M.T</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>7</td>
+                                                    <td>SI2342</td>
+                                                    <td>Analisis Sistem Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Feri Alpiyasin M. Kom</td>
+                                                </tr>
+                                                                                    </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Footer -->
+                                <div class="text-right mt-4">
+                                    <div class="text-left">
+                                        <p><strong>Bandung, 17 November 2024</strong></p>
+                                        <p><strong>Mahasiswa:</strong> faiq</p>
+                                    </div>
+                                    <p><strong>Pembimbing Akademik:</strong> ________________________________</p>
+                                </div>
+                                <!-- Print button -->
+                                <div class="modal-footer">
+                                    <button class="btn btn-success"
+                                        onclick="window.location.href='http://localhost/krs/print/2311341'">
+                                        Print to PDF
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">fadhil</h5>
+                            <p class="card-text"><strong>NIM:</strong> 2314123</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#krsModal2314123">
+                                Lihat KRS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="krsModal2314123" tabindex="-1"
+                    aria-labelledby="exampleModalLabel2314123" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <!-- Header -->
+                            <div class="modal-header d-flex align-items-center">
+                                <img src="http://localhost/images/logo.png" alt="Logo"
+                                    style="width: 100px; margin-right: 15px;">
+                                <div class="text-center w-100">
+                                    <h5 class="mb-0">STMIK MARDIRA INDONESIA</h5>
+                                    <p class="mb-0 small">Jl. Soekarno Hatta No.211, Situsaeur, Kec. Bojongloa Kidul,
+                                        Kota Bandung, Jawa Barat, 40233</p>
+                                    <p class="mb-0 small">Website: stmik-mi.ac.id / e-Mail: info@stmik-mi.ac.id /
+                                        Telepon: 022 - 5233428</p>
+                                </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <!-- Body -->
+                            <div class="modal-body">
+                                <!-- Student Information -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Nama Mahasiswa:</strong> fadhil</p>
+                                            <p><strong>NIM:</strong> 2314123</p>
+                                            <p><strong>Prodi:</strong> s1 - teknik informatika</p>
+                                        </div>
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Semester:</strong> 3</p>
+                                            <p><strong>Jumlah SKS yang Diambil:</strong> 21</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Table -->
+                                <div class="modal-body">
+                                    <h5 class="mt-2">Mata Kuliah yang Ditempuh, Antara Lain:</h5>
+                                    <table class="table-responsive table table-sm table-bordered"
+                                        style="font-size: 14px;">
+                                        <thead class="thead table-active">
+                                            <tr>
+                                                <th style="width: 5%;">No</th>
+                                                <th style="width: 15%;">Kode MK</th>
+                                                <th style="width: 35%;">Mata Kuliah</th>
+                                                <th class="text-center" style="width: 7%;">SKS</th>
+                                                <th style="width: 10%;">Kelas</th>
+                                                <th style="width: 25%;">Dosen Pengampu</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                            <tr>
+                                                    <td>1</td>
+                                                    <td>DK2301</td>
+                                                    <td>Statistika</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Yuda Purnama Putra M. Pd.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>2</td>
+                                                    <td>DK2308</td>
+                                                    <td>Matematika Diskrit</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>OKTAVIA M. Si.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>3</td>
+                                                    <td>IF3310I</td>
+                                                    <td>Manajemen Layanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Cahyo Hermanto M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>4</td>
+                                                    <td>IF3318</td>
+                                                    <td>Komunikasi Data Dan Jaringan Komputer</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Nanang Suciyono M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>5</td>
+                                                    <td>IF3337</td>
+                                                    <td>Pengembangan Aplikasi IOT</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Rr Isni Anisah P M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>6</td>
+                                                    <td>IF3338</td>
+                                                    <td>Keamanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>ROHMAT NUR IBRAHIM M.T</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>7</td>
+                                                    <td>SI2342</td>
+                                                    <td>Analisis Sistem Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Feri Alpiyasin M. Kom</td>
+                                                </tr>
+                                                                                    </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Footer -->
+                                <div class="text-right mt-4">
+                                    <div class="text-left">
+                                        <p><strong>Bandung, 17 November 2024</strong></p>
+                                        <p><strong>Mahasiswa:</strong> fadhil</p>
+                                    </div>
+                                    <p><strong>Pembimbing Akademik:</strong> ________________________________</p>
+                                </div>
+                                <!-- Print button -->
+                                <div class="modal-footer">
+                                    <button class="btn btn-success"
+                                        onclick="window.location.href='http://localhost/krs/print/2314123'">
+                                        Print to PDF
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ayuba</h5>
+                            <p class="card-text"><strong>NIM:</strong> 2342304</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#krsModal2342304">
+                                Lihat KRS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="krsModal2342304" tabindex="-1"
+                    aria-labelledby="exampleModalLabel2342304" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <!-- Header -->
+                            <div class="modal-header d-flex align-items-center">
+                                <img src="http://localhost/images/logo.png" alt="Logo"
+                                    style="width: 100px; margin-right: 15px;">
+                                <div class="text-center w-100">
+                                    <h5 class="mb-0">STMIK MARDIRA INDONESIA</h5>
+                                    <p class="mb-0 small">Jl. Soekarno Hatta No.211, Situsaeur, Kec. Bojongloa Kidul,
+                                        Kota Bandung, Jawa Barat, 40233</p>
+                                    <p class="mb-0 small">Website: stmik-mi.ac.id / e-Mail: info@stmik-mi.ac.id /
+                                        Telepon: 022 - 5233428</p>
+                                </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <!-- Body -->
+                            <div class="modal-body">
+                                <!-- Student Information -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Nama Mahasiswa:</strong> ayuba</p>
+                                            <p><strong>NIM:</strong> 2342304</p>
+                                            <p><strong>Prodi:</strong> s1 - teknik informatika</p>
+                                        </div>
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Semester:</strong> 3</p>
+                                            <p><strong>Jumlah SKS yang Diambil:</strong> 21</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Table -->
+                                <div class="modal-body">
+                                    <h5 class="mt-2">Mata Kuliah yang Ditempuh, Antara Lain:</h5>
+                                    <table class="table-responsive table table-sm table-bordered"
+                                        style="font-size: 14px;">
+                                        <thead class="thead table-active">
+                                            <tr>
+                                                <th style="width: 5%;">No</th>
+                                                <th style="width: 15%;">Kode MK</th>
+                                                <th style="width: 35%;">Mata Kuliah</th>
+                                                <th class="text-center" style="width: 7%;">SKS</th>
+                                                <th style="width: 10%;">Kelas</th>
+                                                <th style="width: 25%;">Dosen Pengampu</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                            <tr>
+                                                    <td>1</td>
+                                                    <td>DK2301</td>
+                                                    <td>Statistika</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Yuda Purnama Putra M. Pd.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>2</td>
+                                                    <td>DK2308</td>
+                                                    <td>Matematika Diskrit</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>OKTAVIA M. Si.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>3</td>
+                                                    <td>IF3310I</td>
+                                                    <td>Manajemen Layanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Cahyo Hermanto M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>4</td>
+                                                    <td>IF3318</td>
+                                                    <td>Komunikasi Data Dan Jaringan Komputer</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Nanang Suciyono M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>5</td>
+                                                    <td>IF3337</td>
+                                                    <td>Pengembangan Aplikasi IOT</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Rr Isni Anisah P M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>6</td>
+                                                    <td>IF3338</td>
+                                                    <td>Keamanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>ROHMAT NUR IBRAHIM M.T</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>7</td>
+                                                    <td>SI2342</td>
+                                                    <td>Analisis Sistem Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Feri Alpiyasin M. Kom</td>
+                                                </tr>
+                                                                                    </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Footer -->
+                                <div class="text-right mt-4">
+                                    <div class="text-left">
+                                        <p><strong>Bandung, 17 November 2024</strong></p>
+                                        <p><strong>Mahasiswa:</strong> ayuba</p>
+                                    </div>
+                                    <p><strong>Pembimbing Akademik:</strong> ________________________________</p>
+                                </div>
+                                <!-- Print button -->
+                                <div class="modal-footer">
+                                    <button class="btn btn-success"
+                                        onclick="window.location.href='http://localhost/krs/print/2342304'">
+                                        Print to PDF
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">radiet</h5>
+                            <p class="card-text"><strong>NIM:</strong> 2341345</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#krsModal2341345">
+                                Lihat KRS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="krsModal2341345" tabindex="-1"
+                    aria-labelledby="exampleModalLabel2341345" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <!-- Header -->
+                            <div class="modal-header d-flex align-items-center">
+                                <img src="http://localhost/images/logo.png" alt="Logo"
+                                    style="width: 100px; margin-right: 15px;">
+                                <div class="text-center w-100">
+                                    <h5 class="mb-0">STMIK MARDIRA INDONESIA</h5>
+                                    <p class="mb-0 small">Jl. Soekarno Hatta No.211, Situsaeur, Kec. Bojongloa Kidul,
+                                        Kota Bandung, Jawa Barat, 40233</p>
+                                    <p class="mb-0 small">Website: stmik-mi.ac.id / e-Mail: info@stmik-mi.ac.id /
+                                        Telepon: 022 - 5233428</p>
+                                </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <!-- Body -->
+                            <div class="modal-body">
+                                <!-- Student Information -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Nama Mahasiswa:</strong> radiet</p>
+                                            <p><strong>NIM:</strong> 2341345</p>
+                                            <p><strong>Prodi:</strong> s1 - teknik informatika</p>
+                                        </div>
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Semester:</strong> 3</p>
+                                            <p><strong>Jumlah SKS yang Diambil:</strong> 21</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Table -->
+                                <div class="modal-body">
+                                    <h5 class="mt-2">Mata Kuliah yang Ditempuh, Antara Lain:</h5>
+                                    <table class="table-responsive table table-sm table-bordered"
+                                        style="font-size: 14px;">
+                                        <thead class="thead table-active">
+                                            <tr>
+                                                <th style="width: 5%;">No</th>
+                                                <th style="width: 15%;">Kode MK</th>
+                                                <th style="width: 35%;">Mata Kuliah</th>
+                                                <th class="text-center" style="width: 7%;">SKS</th>
+                                                <th style="width: 10%;">Kelas</th>
+                                                <th style="width: 25%;">Dosen Pengampu</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                            <tr>
+                                                    <td>1</td>
+                                                    <td>DK2301</td>
+                                                    <td>Statistika</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Yuda Purnama Putra M. Pd.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>2</td>
+                                                    <td>DK2308</td>
+                                                    <td>Matematika Diskrit</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>OKTAVIA M. Si.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>3</td>
+                                                    <td>IF3310I</td>
+                                                    <td>Manajemen Layanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Cahyo Hermanto M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>4</td>
+                                                    <td>IF3318</td>
+                                                    <td>Komunikasi Data Dan Jaringan Komputer</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Nanang Suciyono M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>5</td>
+                                                    <td>IF3337</td>
+                                                    <td>Pengembangan Aplikasi IOT</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Rr Isni Anisah P M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>6</td>
+                                                    <td>IF3338</td>
+                                                    <td>Keamanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>ROHMAT NUR IBRAHIM M.T</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>7</td>
+                                                    <td>SI2342</td>
+                                                    <td>Analisis Sistem Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Feri Alpiyasin M. Kom</td>
+                                                </tr>
+                                                                                    </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Footer -->
+                                <div class="text-right mt-4">
+                                    <div class="text-left">
+                                        <p><strong>Bandung, 17 November 2024</strong></p>
+                                        <p><strong>Mahasiswa:</strong> radiet</p>
+                                    </div>
+                                    <p><strong>Pembimbing Akademik:</strong> ________________________________</p>
+                                </div>
+                                <!-- Print button -->
+                                <div class="modal-footer">
+                                    <button class="btn btn-success"
+                                        onclick="window.location.href='http://localhost/krs/print/2341345'">
+                                        Print to PDF
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">rizki</h5>
+                            <p class="card-text"><strong>NIM:</strong> 2341232</p>
+                            <button class="btn btn-primary" data-toggle="modal"
+                                data-target="#krsModal2341232">
+                                Lihat KRS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="krsModal2341232" tabindex="-1"
+                    aria-labelledby="exampleModalLabel2341232" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <!-- Header -->
+                            <div class="modal-header d-flex align-items-center">
+                                <img src="http://localhost/images/logo.png" alt="Logo"
+                                    style="width: 100px; margin-right: 15px;">
+                                <div class="text-center w-100">
+                                    <h5 class="mb-0">STMIK MARDIRA INDONESIA</h5>
+                                    <p class="mb-0 small">Jl. Soekarno Hatta No.211, Situsaeur, Kec. Bojongloa Kidul,
+                                        Kota Bandung, Jawa Barat, 40233</p>
+                                    <p class="mb-0 small">Website: stmik-mi.ac.id / e-Mail: info@stmik-mi.ac.id /
+                                        Telepon: 022 - 5233428</p>
+                                </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <!-- Body -->
+                            <div class="modal-body">
+                                <!-- Student Information -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Nama Mahasiswa:</strong> rizki</p>
+                                            <p><strong>NIM:</strong> 2341232</p>
+                                            <p><strong>Prodi:</strong> s1 - teknik informatika</p>
+                                        </div>
+                                        <div class="col-md-6 sm-3">
+                                            <p><strong>Semester:</strong> 3</p>
+                                            <p><strong>Jumlah SKS yang Diambil:</strong> 21</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Table -->
+                                <div class="modal-body">
+                                    <h5 class="mt-2">Mata Kuliah yang Ditempuh, Antara Lain:</h5>
+                                    <table class="table-responsive table table-sm table-bordered"
+                                        style="font-size: 14px;">
+                                        <thead class="thead table-active">
+                                            <tr>
+                                                <th style="width: 5%;">No</th>
+                                                <th style="width: 15%;">Kode MK</th>
+                                                <th style="width: 35%;">Mata Kuliah</th>
+                                                <th class="text-center" style="width: 7%;">SKS</th>
+                                                <th style="width: 10%;">Kelas</th>
+                                                <th style="width: 25%;">Dosen Pengampu</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                            <tr>
+                                                    <td>1</td>
+                                                    <td>DK2301</td>
+                                                    <td>Statistika</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Yuda Purnama Putra M. Pd.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>2</td>
+                                                    <td>DK2308</td>
+                                                    <td>Matematika Diskrit</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>OKTAVIA M. Si.</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>3</td>
+                                                    <td>IF3310I</td>
+                                                    <td>Manajemen Layanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Cahyo Hermanto M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>4</td>
+                                                    <td>IF3318</td>
+                                                    <td>Komunikasi Data Dan Jaringan Komputer</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Nanang Suciyono M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>5</td>
+                                                    <td>IF3337</td>
+                                                    <td>Pengembangan Aplikasi IOT</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Rr Isni Anisah P M. Kom</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>6</td>
+                                                    <td>IF3338</td>
+                                                    <td>Keamanan Teknologi Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>ROHMAT NUR IBRAHIM M.T</td>
+                                                </tr>
+                                                                                            <tr>
+                                                    <td>7</td>
+                                                    <td>SI2342</td>
+                                                    <td>Analisis Sistem Informasi</td>
+                                                    <td>3</td>
+                                                    <td>N-2023</td>
+                                                    <td>Feri Alpiyasin M. Kom</td>
+                                                </tr>
+                                                                                    </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Footer -->
+                                <div class="text-right mt-4">
+                                    <div class="text-left">
+                                        <p><strong>Bandung, 17 November 2024</strong></p>
+                                        <p><strong>Mahasiswa:</strong> rizki</p>
+                                    </div>
+                                    <p><strong>Pembimbing Akademik:</strong> ________________________________</p>
+                                </div>
+                                <!-- Print button -->
+                                <div class="modal-footer">
+                                    <button class="btn btn-success"
+                                        onclick="window.location.href='http://localhost/krs/print/2341232'">
+                                        Print to PDF
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</body>
+
+</html>
